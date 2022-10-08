@@ -1,0 +1,26 @@
+package com.primero;
+
+public class CrearClase {
+
+    public static void main(String[]args){
+
+        byte uno=1;
+        short dos=2;
+        int entero=3;
+        long largo=4;
+        float decima1=1.3f;
+        double decimal2=2.33;
+        char caracter='a';
+        boolean verdadero=true;
+        boolean negativo= false;
+        String primerNombre= "olfer";
+
+        System.out.println("numeros son:");
+        System.out.println("byte es"+uno+" , "+ "short es"+dos+"entero es:"+","+entero+ " "+ "long es:"+ "  "+largo );
+        System.out.println("un decimal es:" + decima1+ " "+ "dos decimales son:"+ decimal2+ " ,"+ "un caracter es:"+ caracter+ " ,");
+        System.out.println(" Un valor falso es:"+negativo+" ,"+ "un valor verdadero es"+ verdadero+ "el nombre es"+ primerNombre);
+
+
+
+    }
+}
