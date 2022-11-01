@@ -1,0 +1,17 @@
+package EjercicioDos;
+
+public class PrecioEjercicio {
+
+    public static void main(String[] args){
+        int resultado= sumaIva(10000,3000);
+
+        System.out.println("El resultado es:"+ " "+ resultado);
+
+
+
+    }
+    static int sumaIva(int precio,int iva){
+        return precio+iva;
+
+    }
+}
